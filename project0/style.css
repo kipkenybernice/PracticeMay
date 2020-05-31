@@ -1,0 +1,10 @@
+.greybox{
+    background-color: grey;
+ width:680px;
+ height:500px;
+}
+.yellowbox{
+    background:rgb(221, 224, 7);
+    width: 450px;
+    height: 300px;
+}
