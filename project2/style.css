@@ -44,6 +44,9 @@ main{
 .cards {
     display:flex; 
     justify-content: space-between;
+    text-align: center;
+ 
+    
 }
 
 .card1 {
@@ -91,9 +94,20 @@ h1{
     margin-bottom: 1rem;
 
 }
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+  
+}
 p{
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
+}
+.cards p{
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+    margin:20px 30px;
 }
 
 
