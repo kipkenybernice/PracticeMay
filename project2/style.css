@@ -14,6 +14,8 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
   color: white;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  
 
 }
 
@@ -40,36 +42,41 @@ main{
     align-items: center;
 }
 .cards {
-    background-color: green;
-    min-height: 300px;
     display:flex; 
     justify-content: space-between;
-
 }
 
 .card1 {
-    background-color: palevioletred;
-    min-height: 100px;
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 
 .card2 {
-    background-color: plum;
-    min-height: 100px;
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 .card3 {
-    background-color: rgb(211, 15, 201);
-    min-height: 100px;
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 
 .herobox1{
     flex: 2;
+    margin-right: 100px;
 
 }
 .herobox2{ 
     flex: 1;
+   
 }
 
 .logo{
@@ -78,10 +85,15 @@ main{
  */
 }
 h1{
-    font-size: 80px;
+    font-size: 3.25rem;
     color: thistle;
     font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
 
+}
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
 }
 
 
