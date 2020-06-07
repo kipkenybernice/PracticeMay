@@ -32,6 +32,7 @@ header{
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 2.5px solid rgb(45,0,42);
    
 }
 
@@ -97,10 +98,11 @@ main{
 }
 h1{
     font-size: 3.25rem;
-    color: thistle;
+    font-weight: bolder;
+    color: rgb(45,0,42);
     font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
-    text-shadow: 0px 2px 2px rgba(241, 155, 219, 0.473);
+    text-shadow: 0px 2px 2px rgb(129, 22, 97 );
 
 }
 h2{
@@ -140,10 +142,88 @@ p{
      margin-top: 10px;
      border-radius: 25px ;
      box-shadow: 0px 2px 2px rgba(241, 155, 219, 0.637);
+    }
+.mybutton:hover{
+    background-color: rgb(54, 13, 54);
+    transition-duration: 1s;
+
+}
+ .navbutton{
+        background-color:none ;
+        text-decoration: none;
+        padding: 11px 25px;
+        font-size: 1.5rem;
+        display: inline-block;
+        margin-left: 50px;
+        border: 2px solid rgb(137, 76, 170);
+        /*border-style:solid;
+          border-color:rgb(180, 128, 209);
+          border-width: 2px;
+        */
+       color: white;
+       border-radius: 8px ;
+       font-family: 'Playfair Display', serif;
+       position: relative;
 
  }
- nav a.mybutton{
-     margin-left: 50px;
+ /* This stops the drop doen from being displayed  */
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1px;
+    padding-top: 20px;
+    margin-left: -70px;
+ 
+
+    
+}
+/* this displays the drop when hovering */
+.navbutton:hover .dropdown{
+    display: block;
+    
+}
+ .dropdown .navbutton  {
+   background-color:rgba(241, 155, 219, 0.237);
+   color: white;
+
+   }
+
+.dropdown .navbutton:hover {
+    background-color: rgba(38,0,35,1);
+    transition-duration: 500ms;
+
+}
+
+ .testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+ }
+ .tbox{
+     width:47%;
+     padding:50px;
+     border: 2px solid rgb(180,128,209);
+     box-sizing: border-box;
+     margin-top: 50px;
  }
  
+ /* .tbox :last-child{
+     font: 8rem;
+     padding-left: 30px ;
+     color: rgb(180,128,209);
+ } */
  
+ .tbox p:last-of-type{
+    font: 8rem;
+    padding-left: 30px ;
+    color: rgb(180,128,209);
+ }
+ .navbaritems{
+    background-color: violet;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}

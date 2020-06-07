@@ -1,0 +1,21 @@
+.navbaritems{
+    background-color: violet;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+/* This stops the drop doen from being displayed  */
+.dropdown{
+    display: none;
+    position: absolute;
+    
+
+
+}
+/* this displays the drop when hovering */
+.navbaritems:hover .dropdown{
+    display: block;
+    
+}
