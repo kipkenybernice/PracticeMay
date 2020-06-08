@@ -173,6 +173,7 @@ p{
     z-index: 1px;
     padding-top: 20px;
     margin-left: -70px;
+    margin-bottom: 30px;
  
 
     
@@ -181,10 +182,15 @@ p{
 .navbutton:hover .dropdown{
     display: block;
     
+    
 }
  .dropdown .navbutton  {
    background-color:rgba(241, 155, 219, 0.237);
    color: white;
+    width: 200px;
+   /*padding: 5px 20px; */
+
+
 
    }
 
@@ -219,11 +225,3 @@ p{
     padding-left: 30px ;
     color: rgb(180,128,209);
  }
- .navbaritems{
-    background-color: violet;
-    padding: 11px 25px;
-    width: 100px;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-}
