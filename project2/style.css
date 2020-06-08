@@ -1,12 +1,15 @@
-
-body{
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2d002a+19,8e3373+45,8e3373+48,8e3373+60,260023+92,260023+92 */
+html{
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2d002a+19,8e3373+45,8e3373+48,8e3373+60,260023+92,260023+92 */
 background: rgb(45,0,42); /* Old browsers */
 background: -moz-linear-gradient(45deg,  rgba(45,0,42,1) 19%, rgba(142,51,115,1) 45%, rgba(142,51,115,1) 48%, rgba(142,51,115,1) 60%, rgba(38,0,35,1) 92%, rgba(38,0,35,1) 92%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg,  rgba(45,0,42,1) 19%,rgba(142,51,115,1) 45%,rgba(142,51,115,1) 48%,rgba(142,51,115,1) 60%,rgba(38,0,35,1) 92%,rgba(38,0,35,1) 92%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(45deg,  rgba(45,0,42,1) 19%,rgba(142,51,115,1) 45%,rgba(142,51,115,1) 48%,rgba(142,51,115,1) 60%,rgba(38,0,35,1) 92%,rgba(38,0,35,1) 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d002a', endColorstr='#260023',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+}
+body{
+    background-image: url(images/image-lion-background.png);
+    background-position: top center ;
+    background-repeat: no-repeat;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
