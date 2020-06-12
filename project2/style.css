@@ -238,3 +238,10 @@ p{
     min-height: 300px;
     padding-top: 40px;
 }
+.inputwrapper{
+    margin-bottom: 30px;
+}
+input [type=text],[type=email] ,textarea {
+    padding :15px 20px ;
+
+}
