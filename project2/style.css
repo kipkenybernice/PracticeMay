@@ -241,7 +241,12 @@ p{
 .inputwrapper{
     margin-bottom: 30px;
 }
-input [type=text],[type=email] ,textarea {
+input[type=text] ,[type=email] ,textarea {
     padding :15px 20px ;
-
+    width :100% ;
+    font-family: 'Roboto', sans-serif;
+}
+.newline{
+    display: block;
+    padding-bottom: 10px;
 }
