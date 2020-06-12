@@ -234,5 +234,7 @@ p{
 
  }
 
-
+.main2{
+    min-height: 300px;
+    padding-top: 40px;
 }
