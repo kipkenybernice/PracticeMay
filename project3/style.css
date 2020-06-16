@@ -15,6 +15,10 @@
     width:30%;
     margin-bottom:40px;
 }
+.hide-desktop-only{
+display: none;
+
+}
 
 /* Tablet View */
 @media (max-width: 768px ){
@@ -22,6 +26,11 @@
         background-color: rgb(139, 127, 199);
         width: 47%;
     }
+
+    .hide-desktop-only{
+        display: block;
+        }
+        
   
  }
  /* Mobile View */
@@ -29,5 +38,9 @@
     .col{
         background-color: rgb(149, 144, 214);
         width: 100%;
+    }
+
+    .hide-mobile{
+        display: none;
     }
 }
