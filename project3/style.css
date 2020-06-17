@@ -3,6 +3,14 @@
 body{
     font-family: 'Asap', sans-serif;
 }
+header{
+    background-color: black;
+    color: turquoise;
+    padding: 20px;
+    
+   
+}
+
 .container{
     
     min-height: 500px;
