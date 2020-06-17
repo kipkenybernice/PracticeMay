@@ -20,6 +20,11 @@ display: none;
 
 }
 
+.col img{
+    width: 100%;
+    
+}
+
 /* Tablet View */
 @media (max-width: 768px ){
     .col{
