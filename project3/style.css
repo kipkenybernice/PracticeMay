@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 .col{
-    background-color: rgb(115, 97, 206);
+   
     min-height: 200px;
     width:30%;
     margin-bottom:40px;
@@ -22,13 +22,13 @@ display: none;
 
 .col img{
     width: 100%;
-    
+
 }
 
 /* Tablet View */
 @media (max-width: 768px ){
     .col{
-        background-color: rgb(139, 127, 199);
+       
         width: 47%;
     }
 
@@ -41,7 +41,7 @@ display: none;
  /* Mobile View */
 @media (max-width: 400px ){
     .col{
-        background-color: rgb(149, 144, 214);
+        
         width: 100%;
     }
 
