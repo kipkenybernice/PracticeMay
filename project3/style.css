@@ -1,7 +1,19 @@
  /* Desktop/global view */
- @media(max-width : 768px){
+
  .main-container{
    background-color: teal;
    display:flex
  }
+ 
+
+
+ /* tablet view */
+
+ @media(max-width : 768px){
+
+ }
+ /* mobile */
+
+ @media(max-width : 500px){
+     
  }
