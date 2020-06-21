@@ -1,11 +1,15 @@
  /* Desktop/global view */
 
  .main-container{
-   background-color: teal;
-   display:flex ;
-   margin: 0 auto ;
+   background-color: rgb(128, 153, 153);
+   max-width: 1024px;
+   margin:0 auto;
+   display: block;
+
  }
- .col
+ .col{
+ width: 30%;
+ }
 
 
  /* tablet view */
