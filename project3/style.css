@@ -2,9 +2,10 @@
 
  .main-container{
    background-color: teal;
-   display:flex
+   display:flex ;
+   margin: 0 auto ;
  }
- 
+ .col
 
 
  /* tablet view */
