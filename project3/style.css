@@ -21,16 +21,26 @@ a {
   
  }
  .header-container{
-   background-color: rgb(27, 2, 32);
-   min-height: 100px;
+   background-color: rgb(43, 241, 198);
+   min-height: 50px;
    position: fixed;
-   width: 100%
+   width: 100%;
+   margin : 0 auto;
+   padding: 20px 25px;
+   display: flex;
+   
 
  }
 
- nav ul{
-   text-align: center;
-   
+ .logo p span{
+   font-weight: 900;
+ }
+.nav ul{
+
+}
+ .nav li{
+  border: 2px;
+  border-color: rgb(27, 2, 32);
  }
  .col{
 
