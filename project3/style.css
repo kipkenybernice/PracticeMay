@@ -1,24 +1,83 @@
  /* Desktop/global view */
 
- .main-container{
-   background-color: rgb(128, 153, 153);
-   max-width: 1024px;
-   margin:0 auto;
-   display: block;
+ body {
+      font-family: 'Asap', sans-serif;
+      color: white;
+      background-color: #EBEBEB;
+    }
 
+a {
+  color: rgb(224, 36, 184);
+  text-decoration: none;
+}
+ .main-container{
+  min-height: 500px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 140px;
+  
+ }
+ .header-container{
+   background-color: rgb(27, 2, 32);
+   min-height: 100px;
+   position: fixed;
+   width: 100%
+
+ }
+
+ nav ul{
+   text-align: center;
+   
  }
  .col{
- width: 30%;
- }
+
+   min-height: 200px;
+   width:30% ;
+  margin-bottom: 40px;
+   background-color: rgb(27, 2, 32);
+}
+
+.col p {
+  font-size: 0.825rem;
+  padding: 20px 25px;
+  line-height: 1.25rem;
+}  
+
+.hide-desktop-only {
+  display: none;
+}
+
+.col img {
+  width: 100%;
+  height: auto;
+} 
+
+.col p::first-line {
+  font-weight: 700;
+  
+}
 
 
- /* tablet view */
+ /* Tablet view */
 
  @media(max-width : 768px){
+  .col{
+    width: 45%;
+  }
 
  }
- /* mobile */
+ /* Mobile View */
 
  @media(max-width : 400px){
+  
+  .col {
+    width: 100%;
+}
 
+.hide-mobile {
+    display: none;
  }
+}
