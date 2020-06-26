@@ -24,16 +24,17 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 140px;
+    padding-top: 80px;
     
 }
 
 .header-container {
     background-color: rgb(5, 52, 58);
     min-height: 100px;
-    position: fixed;
+    position: sticky;
     width: 100%;
     color: #26acc8;
+    border-radius: 8px ;
 }
 
 header {
@@ -52,8 +53,6 @@ header {
     /* border: 2px solid rgb(5, 52, 58); 
     border-radius: 8px ; */
   
-    
-   
 }
 
 .col p {
@@ -79,6 +78,9 @@ header {
 
 .col p::first-line{
     font-weight: 700;
+}
+.logo{
+    margin-left: 20px;
 }
 
 .mybutton {
@@ -112,11 +114,11 @@ header {
 
 
 .header-container {
-    position: relative;
+    position: sticky;
 }
 
 .container {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 nav {
