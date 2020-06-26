@@ -2,14 +2,14 @@
 
 body {
     font-family: 'Asap', sans-serif;
-    color: white;
-    background-color: #EBEBEB;
+    color:  rgb(5, 52, 58);
+    background-color: #8fd4f0;
 }
 
 a {
     color: #26acc8;
     text-decoration: none;
-    border-radius: 15px; 
+    border-radius: 8px ;
 }
 a:hover{
   background-color:#26adc888;
@@ -25,13 +25,15 @@ a:hover{
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 140px;
+    
 }
 
 .header-container {
-    background-color: rgb(25, 6, 41);
+    background-color: rgb(5, 52, 58);
     min-height: 100px;
     position: fixed;
     width: 100%;
+    color: #26acc8;
 }
 
 header {
@@ -46,13 +48,20 @@ header {
 .col {
     width: 30%;
     margin-bottom: 40px;
-    background-color:#26acc8;
+    /* background-color:#26acc8; */
+    /* border: 2px solid rgb(5, 52, 58); 
+    border-radius: 8px ; */
+    
+   
 }
 
 .col p {
-    font-size: 0.825rem;
-    padding: 20px 25px;
+    font-size: 1rem;
+    padding: 10px 15px;
+    text-align: center;
     line-height: 1.25rem;
+   
+  
 }  
 
 .hide-desktop-only {
@@ -62,6 +71,7 @@ header {
 .col img {
     width: 100%;
     height: auto;
+    border-radius: 25% ;
 } 
 
 .col p::first-line {
@@ -83,7 +93,7 @@ header {
 .mob-wrapper {
     display: none;
 }
-
+ 
 
 
 /* Tablet View */
@@ -135,7 +145,7 @@ nav a {
 
 .navbutton {
     display: block;
-    background-color: coral;
+   
     padding: 15px 30px;
     margin-left: -70px;
     text-align: center;
