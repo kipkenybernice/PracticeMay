@@ -51,6 +51,7 @@ header {
     /* background-color:#26acc8; */
     /* border: 2px solid rgb(5, 52, 58); 
     border-radius: 8px ; */
+  
     
    
 }
@@ -60,6 +61,7 @@ header {
     padding: 10px 15px;
     text-align: center;
     line-height: 1.25rem;
+    text-shadow: 2px 2px 4px #2d85cc;
    
   
 }  
@@ -72,9 +74,10 @@ header {
     width: 100%;
     height: auto;
     border-radius: 15% ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } 
 
-.col p::first-line {
+.col p::first-line{
     font-weight: 700;
 }
 
