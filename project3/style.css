@@ -3,7 +3,8 @@
 body {
     font-family: 'Asap', sans-serif;
     color:  rgb(5, 52, 58);
-    background-color: #8fd4f0;
+    background-color: rgb(112, 217, 243);
+
 }
 
 a {
@@ -12,7 +13,7 @@ a {
     border-radius: 8px ;
 }
 a:hover{
-  background-color:#26adc888;
+  background-color:#064f5e88;
   transition-duration: 1s;
  
 }
