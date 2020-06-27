@@ -150,8 +150,7 @@ nav a {
 }
 
 .navbutton {
-    display: block;
-   
+    display: block; 
     padding: 15px 30px;
     margin-left: -70px;
     text-align: center;
