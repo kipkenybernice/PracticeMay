@@ -9,8 +9,8 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- my internal style sheet -->
     <style>
-        .container {
-            background-color: teal;
+        .myheader {
+            background-color: rgb(49, 13, 38);
         }
 
         .col {
@@ -19,32 +19,51 @@
             margin: 20px 10px;
         }
 
-
-        .mybox {
-            background-color: thistle;
+        .mybox2 {
+            background-color: rgb(56, 131, 192);
+            min-height: 200px;
         }
     </style>
-    <title>Layout-A</title>
+    <title>Layout-B</title>
 
 </head>
 
 <body>
+    <div class="container-fluid myheader">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="mybox">Logo</div>
+                </div>
+                <div class="col">
+                    <div class="mybox">Nav</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
 
         <div class="row">
             <div class="col">
-                <div class="mybox">Logo</div>
+                <div class="mybox">body
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="mybox2">Nest2</div>
+                        </div>
+                        <div class="col">
+                            <div class="mybox2">Nest3</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
             </div>
-            <div class="col">
-                <div class="mybox">Nav</div>
-            </div>
+
         </div>
 
-        <div class="row">
-            <div class="col">
-                <div class="mybox">Hero Box</div>
-            </div>
-        </div>
 
         <div class="row">
             <div class="col">
@@ -57,9 +76,6 @@
                 <div class="mybox">Feature 3</div>
             </div>
         </div>
-
-
-
     </div>
 
 </body>
