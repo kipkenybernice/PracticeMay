@@ -22,15 +22,15 @@ span{
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-h2{
-    color: rgb(71, 166, 255);
-  }
+    h2{
+        color: rgb(71, 166, 255);
+    }
 }
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-h2{
-    color: rgb(141, 71, 255);
-}
+    h2{
+        color: rgb(141, 71, 255);
+    }
 
 }
  /* Extra large devices (large desktops, 1200px and up) */
