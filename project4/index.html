@@ -19,7 +19,7 @@
 <body>
   <div class="container">
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
       <nav class="navbar navbar-light">
         <a class="navbar-brand" href="index.html">
          <img src="images/logo-dans-meat-yogurt.svg" alt="Logo Dan " width="120px" srcset="">
@@ -33,22 +33,23 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto float-right">
           
-          
-          <li class="nav-item dropdown btn btn-outline-light btn-lg mt-2 px-4 py-1 mb-2 mb-md-0  ">
+           
+          <li class="nav-item dropdown btn btn-outline-light mt-2 mr-4 ml-2 px-4 py-1 mb-2 mb-md-0  ">
             <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Flavous
             </a>
-            <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-              <a class="dropdown-item " href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu btn btn-outline-success mt-1 float-right " aria-labelledby="navbarDropdown">
+              <a class="dropdown-item " href="#">Chicken</a>
+              <a class="dropdown-item" href="#">Beef</a>
+              <a class="dropdown-item" href="#">Fish</a>
+              <a class="dropdown-item" href="#">Ham</a>
+
             </div>
           </li>
-         <li class="nav-item btn btn-outline-light btn-lg mt-2 px-4 py-1 mb-2 mb-md-0">
+         <li class="nav-item btn btn-outline-light mt-2 mr-4 ml-2 px-4 py-1 mb-2 mb-md-0">
             <a class="nav-link text-success " href="#">Contacts</a>
           </li>
         </ul>
@@ -65,7 +66,7 @@
             <h1 class="display-3 text-white drop-shadow">Thick & Creamy</h1>
             <p class="lead">With real meat chunks</p>
             
-            <a class="btn btn-outline-light btn-lg mt-4 px-5 py-3 mb-5 mb-md-0" href="#" role="button">Pricing</a>
+            <a class="btn btn-outline-light btn-lg-mt-4 px-5 py-3 mb-5 mb-md-0" href="#" role="button">Pricing</a>
     
         </div>
         <div class="col-12 col-md-5">
@@ -74,17 +75,33 @@
       </div>
     
     </div>
+    <!-- Message from our founder  -->
 
+    <div class="row ">
+      <div class="col-12 col-md-4 ">
+        <img src="images/headshot-dan.jpg" alt="" class="img-fluid rounded-left border-lg border-0"></div>
+      <div class="col col-md-8 bg-light p-5 d-flex align-items-center border border-dark rounded-right border-lg ">
+        <section>
+        <h2  class="text-success" >Message from our founder</h2><p  class="text-primary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eius sequi est atque saepe pariatur voluptates odio fuga facilis aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quod pariatur, sit repellat, laboriosam quisquam adipisci minus voluptates praesentium esse quia repudiandae doloremque accusamus impedit eius perspiciatis provident harum dignissimos libero tempora. <br> Fuga sapiente architecto a adipisci veritatis hic nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur doloremque quod possimus, impedit iusto!</p>
+      </section>
+    </div>
+    </div>
     <!-- carosel -->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide d-none d-md-block carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-interval="500">
           <img class="d-block w-100" src="images/yogurt-1.png" alt="First slide">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item"
+        data-interval="500">
           <img class="d-block w-100" src="images/yogurt-2.png" alt="Second slide">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="500">
           <img class="d-block w-100" src="images/yogurt-3.png" alt="Third slide">
         </div>
       </div>
@@ -98,31 +115,35 @@
       </a>
     </div>
 <!-- cards  -->
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="images/product1.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="card-deck my-5">
+      <div class="card shadow" style="width: 18rem;">
+        <img class="card-img-top" src="images/product1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+          <a href="https://www.bringyourownlaptop.com" class="btn btn-primary stretched-link">Go somewhere</a>
+        </div>
       </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="images/product2.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="card shadow" style="width: 18rem;">
+        <img class="card-img-top" src="images/product2.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+        </div>
       </div>
+      <div class="card shadow" style="width: 18rem;">
+        <img class="card-img-top" src="images/product3.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+        </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="images/product3.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
     </div>
-
 
     
   </div>

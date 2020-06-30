@@ -6,7 +6,7 @@ font-weight: 300;
 
 }
 
-h1{
+h1,h2,h3{
  font-family: 'Gabriela', serif;
 
 }
@@ -28,4 +28,8 @@ background-color: rgba(216, 191, 216, 0);
  .btn-outline-light:hover{
  background-color: rgba(255, 255, 255, 0.205);
 
+}
+.btn-primary , .btn-primary:hover{
+    background-color: #00BBC9;
+    border-color:#00BBC9;
 }
